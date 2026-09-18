@@ -34,3 +34,7 @@ Before scaling operations, estimate the full cost of production so leadership ca
 - Confirm the README includes a business cost assessment section.
 - Confirm the README includes a concrete supply chain plan with supplier and inventory guidance.
 - Confirm the implementation steps are specific enough to guide follow-up planning work.
+
+## Test infrastructure
+
+- Run `npm test` to execute the repository's automated README checks.

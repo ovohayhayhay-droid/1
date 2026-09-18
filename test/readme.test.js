@@ -27,6 +27,7 @@ test("README includes the expected issue-specific sections", () => {
     "Supply chain plan",
     "Implementation priorities",
     "How to verify",
+    "Test infrastructure",
   ];
 
   for (const section of requiredSections) {
@@ -64,4 +65,11 @@ test("README verification section provides a checklist of follow-up checks", () 
     getBulletCount(verificationSection) >= 3,
     "Expected at least three verification checklist items",
   );
+});
+
+test("README documents how to run the automated tests", () => {
+  const testSection = getSectionContent("Test infrastructure");
+
+  assert.ok(testSection, "Expected a Test infrastructure section");
+  assert.match(testSection, /npm test/);
 });
