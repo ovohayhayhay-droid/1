@@ -1,5 +1,13 @@
 # 1
 systematic-justice-league 
+
+## Strategy
+1. Define a clear problem statement for each issue before implementation.
+2. Break work into small, testable tasks with explicit expected outcomes.
+3. Implement the smallest safe change that satisfies the requirement.
+4. Validate each change with targeted checks and document verification steps.
+5. Iterate using issue/PR feedback until behavior matches expectations.
+
 ### Summary
 Short summary of the problem.
 
