@@ -1,0 +1,7 @@
+{
+  "name": "systematic-justice-league",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  }
+}
