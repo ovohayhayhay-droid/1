@@ -1,39 +1,29 @@
 # 1
 systematic-justice-league
 
-## Assess business costs
+## Ensure access to skilled workforce
 
-Before scaling operations, estimate the full cost of production so leadership can compare options and set a realistic budget. The assessment should cover one-time startup costs, recurring operating expenses, and risk buffers that affect margins and cash flow.
+Domestic operations need a reliable pipeline of trained workers. To build that pipeline, partner with workforce boards, local agencies, and community colleges to recruit, train, and retain employees in the communities where operations will grow.
 
-## Cost assessment priorities
+## Workforce partnership plan
 
-- **Facilities and equipment:** estimate site preparation, lease or purchase costs, utilities, machinery, maintenance, and depreciation.
-- **Labor and training:** budget for wages, benefits, recruiting, onboarding, and any upskilling needed for new domestic operations.
-- **Materials and suppliers:** compare unit costs, minimum order quantities, lead times, and price volatility for critical inputs.
-- **Logistics and inventory:** include inbound freight, warehousing, safety stock, outbound shipping, and returns handling.
-- **Compliance and contingency:** account for permits, insurance, quality controls, tariffs if relevant, and a reserve for disruptions or demand swings.
-
-## Supply chain plan
-
-- Identify the critical materials, components, and services required to support production and rank them by business risk.
-- Qualify at least two suppliers for high-risk inputs to reduce single-source exposure and improve negotiating leverage.
-- Prefer suppliers that can meet quality, lead-time, and capacity targets while aligning with domestic or near-shore resilience goals.
-- Define inventory policies for critical items, including reorder points, safety stock, and escalation paths for shortages.
-- Establish performance reviews that track cost, on-time delivery, defect rates, and responsiveness so weak links can be corrected early.
+- Work with regional workforce development boards to identify candidate pools and align hiring goals with local labor-market needs.
+- Coordinate with local agencies and community-based organizations to reach job seekers who can benefit from stable domestic employment.
+- Partner with community colleges and technical programs to build training pathways for role-specific skills, certifications, and apprenticeships.
+- Offer paid training, work-based learning, and clear advancement paths so recruits can transition into long-term employment.
 
 ## Implementation priorities
 
-1. Build a baseline cost model for facilities, labor, materials, logistics, and compliance.
-2. Map the current and target supplier network for each critical input.
-3. Run side-by-side supplier comparisons on cost, lead time, quality, and risk.
-4. Select primary and backup suppliers, then document inventory and replenishment rules.
-5. Review actual costs and supplier performance monthly and adjust the plan as conditions change.
+1. Identify target operating regions and map the workforce boards, agencies, and colleges serving each area.
+2. Define the core skills required for priority roles and share them with training partners.
+3. Launch joint recruiting and training cohorts tied to actual domestic hiring demand.
+4. Track outcomes such as applicant volume, training completion, placement rates, and retention.
 
 ## How to verify
 
-- Confirm the README includes a business cost assessment section.
-- Confirm the README includes a concrete supply chain plan with supplier and inventory guidance.
-- Confirm the implementation steps are specific enough to guide follow-up planning work.
+- Confirm the README describes partnerships with workforce boards, local agencies, and community colleges.
+- Confirm the plan covers both recruiting and training for domestic operations.
+- Confirm the implementation steps are specific enough to guide next actions.
 
 ## Test infrastructure
 

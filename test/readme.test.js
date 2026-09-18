@@ -22,9 +22,8 @@ function getBulletCount(sectionContent) {
 
 test("README includes the expected issue-specific sections", () => {
   const requiredSections = [
-    "Assess business costs",
-    "Cost assessment priorities",
-    "Supply chain plan",
+    "Ensure access to skilled workforce",
+    "Workforce partnership plan",
     "Implementation priorities",
     "How to verify",
     "Test infrastructure",
@@ -35,26 +34,26 @@ test("README includes the expected issue-specific sections", () => {
   }
 });
 
-test("README cost assessment section covers multiple concrete cost categories", () => {
-  const costSection = getSectionContent("Cost assessment priorities");
+test("README partnership section covers the required workforce partners", () => {
+  const partnershipSection = getSectionContent("Workforce partnership plan");
 
-  assert.ok(costSection, "Expected a cost assessment priorities section");
+  assert.ok(partnershipSection, "Expected a workforce partnership plan section");
+  assert.match(partnershipSection, /workforce development boards?/i);
+  assert.match(partnershipSection, /local agencies/i);
+  assert.match(partnershipSection, /community colleges/i);
   assert.ok(
-    getBulletCount(costSection) >= 5,
-    "Expected at least five concrete cost assessment bullet points",
+    getBulletCount(partnershipSection) >= 4,
+    "Expected at least four concrete workforce partnership bullet points",
   );
 });
 
-test("README supply chain section covers sourcing and inventory planning", () => {
-  const supplyChainSection = getSectionContent("Supply chain plan");
+test("README explains recruiting and training for domestic operations", () => {
+  const overviewSection = getSectionContent("Ensure access to skilled workforce");
 
-  assert.ok(supplyChainSection, "Expected a supply chain plan section");
-  assert.match(supplyChainSection, /supplier/i);
-  assert.match(supplyChainSection, /inventory/i);
-  assert.ok(
-    getBulletCount(supplyChainSection) >= 5,
-    "Expected at least five supply chain planning bullet points",
-  );
+  assert.ok(overviewSection, "Expected a skilled workforce overview section");
+  assert.match(overviewSection, /domestic operations/i);
+  assert.match(overviewSection, /recruit/i);
+  assert.match(overviewSection, /train/i);
 });
 
 test("README verification section provides a checklist of follow-up checks", () => {
