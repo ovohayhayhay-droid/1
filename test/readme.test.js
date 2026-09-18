@@ -24,6 +24,7 @@ test("README includes the expected issue-specific sections", () => {
   const requiredSections = [
     "Ensure access to skilled workforce",
     "Workforce partnership plan",
+    "TCO and onshoring analysis",
     "Implementation priorities",
     "How to verify",
     "Test infrastructure",
@@ -54,6 +55,15 @@ test("README explains recruiting and training for domestic operations", () => {
   assert.match(overviewSection, /domestic operations/i);
   assert.match(overviewSection, /recruit/i);
   assert.match(overviewSection, /train/i);
+});
+
+test("README includes TCO analysis for long-term onshoring decisions", () => {
+  const tcoSection = getSectionContent("TCO and onshoring analysis");
+
+  assert.ok(tcoSection, "Expected a TCO and onshoring analysis section");
+  assert.match(tcoSection, /total cost of ownership/i);
+  assert.match(tcoSection, /onshor/i);
+  assert.match(tcoSection, /long-term benefits?/i);
 });
 
 test("README verification section provides a checklist of follow-up checks", () => {
