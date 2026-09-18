@@ -77,6 +77,10 @@ test("README defines recommended U.S. operating locations", () => {
   assert.match(locationSection, /Indianapolis, Indiana/);
   assert.match(locationSection, /workforce availability/i);
   assert.match(locationSection, /total cost of ownership/i);
+  assert.match(locationSection, /incentives/i);
+  assert.match(locationSection, /available facilities/i);
+  assert.match(locationSection, /regulatory requirements/i);
+  assert.match(locationSection, /logistics|freight/i);
 });
 
 test("README verification section provides a checklist of follow-up checks", () => {

@@ -26,11 +26,11 @@ Domestic operations need a reliable pipeline of trained workers. To build that p
 - **Dallas-Fort Worth, Texas:** major transportation hub, deep supplier ecosystem, and scale advantages for distribution and business services.
 - **Indianapolis, Indiana:** central shipping position, steady operating costs, and access to skilled labor across warehousing, production, and maintenance roles.
 
-Use these locations as the initial shortlist, then rank them on workforce availability, total cost of ownership, supplier proximity, freight performance, incentives, and resilience.
+Use these locations as the initial shortlist, then rank them on workforce availability, total cost of ownership, supplier proximity, freight performance, incentives, available facilities, regulatory requirements, and resilience.
 
 ## Implementation priorities
 
-1. Compare the shortlisted U.S. locations on workforce depth, supplier access, freight performance, and incentives.
+1. Compare the shortlisted U.S. locations on workforce depth, logistics performance, supplier access, incentives, available facilities, and regulatory requirements.
 2. Identify target operating regions and map the workforce boards, agencies, and colleges serving each area.
 3. Define the core skills required for priority roles and share them with training partners.
 4. Build a TCO model that compares onshore and offshore scenarios over a multi-year horizon.
@@ -42,7 +42,7 @@ Use these locations as the initial shortlist, then rank them on workforce availa
 - Confirm the README describes partnerships with workforce boards, local agencies, and community colleges.
 - Confirm the plan covers both recruiting and training for domestic operations.
 - Confirm the README explains TCO analysis and the long-term benefits of onshoring.
-- Confirm the README defines recommended U.S. operating locations and the criteria used to compare them.
+- Confirm the README defines recommended U.S. operating locations and the criteria used to compare them, including logistics, incentives, facilities, and regulatory requirements.
 - Confirm the implementation steps are specific enough to guide next actions.
 
 ## Test infrastructure
