@@ -25,6 +25,7 @@ test("README includes the expected issue-specific sections", () => {
     "Ensure access to skilled workforce",
     "Workforce partnership plan",
     "TCO and onshoring analysis",
+    "Recommended U.S. operating locations",
     "Implementation priorities",
     "How to verify",
     "Test infrastructure",
@@ -64,6 +65,18 @@ test("README includes TCO analysis for long-term onshoring decisions", () => {
   assert.match(tcoSection, /total cost of ownership/i);
   assert.match(tcoSection, /onshor/i);
   assert.match(tcoSection, /long-term benefits?/i);
+});
+
+test("README defines recommended U.S. operating locations", () => {
+  const locationSection = getSectionContent("Recommended U.S. operating locations");
+
+  assert.ok(locationSection, "Expected a recommended U.S. operating locations section");
+  assert.match(locationSection, /Columbus, Ohio/);
+  assert.match(locationSection, /Greenville-Spartanburg, South Carolina/);
+  assert.match(locationSection, /Dallas-Fort Worth, Texas/);
+  assert.match(locationSection, /Indianapolis, Indiana/);
+  assert.match(locationSection, /workforce availability/i);
+  assert.match(locationSection, /total cost of ownership/i);
 });
 
 test("README verification section provides a checklist of follow-up checks", () => {
